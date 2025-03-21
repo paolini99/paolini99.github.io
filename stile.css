@@ -52,7 +52,7 @@ h3 {
   margin-top: 20px;
 }
 
-/* ----- Immagini ----- */
+/* ----- Immagini generali ----- */
 .banner {
   display: block;
   width: 100%;
@@ -96,6 +96,11 @@ h3 {
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
+.small-browser {
+  width: 280px;
+}
+
+/* ----- Sezioni flessibili ----- */
 .circuito::after,
 .privacy-section::after {
   content: "";
@@ -131,4 +136,5 @@ footer {
   font-size: 0.9em;
   color: #777;
 }
+
 
